@@ -11,7 +11,7 @@ export default function Mess() {
     e.preventDefault();
     setSubmittedMessage(message); 
     console.log(message);
-    fetch("http://localhost:5000/txte", {
+    fetch("https://iot-1.onrender.com/txte", {
       method: "POST",
       crossDomain: true,
       headers: {
