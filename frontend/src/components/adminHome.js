@@ -22,7 +22,7 @@ export default function AdminHome({ userData }) {
 
   //fetching all user
   const getAllUser = () => {
-    fetch("http://localhost:5000/getAllUser", {
+    fetch("https://iot-1.onrender.com/getAllUser", {
       method: "GET",
     })
       .then((res) => res.json())
