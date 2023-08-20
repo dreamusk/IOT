@@ -22,7 +22,7 @@ function ImageUpload() {
     },[])
 
     function uploadImage() {
-        fetch("http://localhost:5000/upload-image", {
+        fetch("https://iot-1.onrender.com/upload-image", {
             method: "POST",
             crossDomain: true,
             headers: {
